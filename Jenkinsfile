@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('cd') {
             steps {
-                git 'https://github.com/efsavage/hello-world-war.git'
+                git 'https://github.com/AneesRavidKhan/DemoATC.git'
             }
         }
         stage('cb') {
